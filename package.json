@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node dist/server.js",
     "build": "tsc",
     "dev": "ts-node-dev --respawn src/server.ts"
   },
